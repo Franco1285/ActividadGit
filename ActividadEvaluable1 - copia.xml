@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE biblioteca>
+
+<biblioteca>
+  <libro genero="ficcion">
+    <titulo>1984</titulo>
+    <fecha_de_publicacion>1949</fecha_de_publicacion>
+    <autor>George Orwell</autor>
+  </libro>
+
+  <libro genero="fantasia">
+    <titulo>El Hobbit</titulo>
+    <fecha_de_publicacion>1937</fecha_de_publicacion>
+    <autor>J.R.R. Tolkien</autor>
+  </libro>
+
+  <libro genero="ciencia ficcion">
+    <titulo>Dune</titulo>
+    <fecha_de_publicacion>1965</fecha_de_publicacion>
+    <autor>Frank Herbert</autor>
+  </libro>
+
+  <libro genero="romance">
+    <titulo>Orgullo y prejuicio</titulo>
+    <fecha_de_publicacion>1813</fecha_de_publicacion>
+    <autor>Jane Austen</autor>
+  </libro>
+
+  <libro genero="desconocido">
+    <titulo>Las mil y una noches</titulo>
+    <fecha_de_publicacion valor="Desconocida"/>
+    <autor>Anónimo</autor>
+  </libro>
+
+  <libro genero="historico">
+    <titulo>Los pilares de la Tierra</titulo>
+    <fecha_de_publicacion>1989</fecha_de_publicacion>
+    <autor>Ken Follet</autor>
+  </libro>
+</biblioteca>

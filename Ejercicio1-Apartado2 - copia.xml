@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albumes>
+    <!-- Álbum: 2005 - SFDK -->
+    <album>
+        <titulo>2005</titulo>
+        <autor>SFDK</autor>
+        <discografica>Zona Bruta</discografica>
+        <genero>Hip-Hop</genero>
+        <fecha_publicacion>2005-03-28</fecha_publicacion>
+        <premios>Ninguno</premios>
+        <canciones>
+            <cancion colaborador="Shotta">
+                <titulo>Los veteranos</titulo>
+                <grupo>SFDK</grupo>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>42</segundos>
+                </duracion>
+            </cancion>
+            <cancion colaborador="Doble V">
+                <titulo>Donde está Wifly?</titulo>
+                <grupo>SFDK</grupo>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>05</segundos>
+                </duracion>
+            </cancion>
+            <cancion>
+                <titulo>Rap romántico</titulo>
+                <grupo>SFDK</grupo>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>41</segundos>
+                </duracion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <!-- Álbum: A Night at the Opera - Queen -->
+    <album>
+        <titulo>A Night at the Opera</titulo>
+        <autor>Queen</autor>
+        <discografica>EMI, Elektra</discografica>
+        <genero>Rock</genero>
+        <fecha_publicacion>1975-11-21</fecha_publicacion>
+        <premios>
+            <premio>Grammy Hall of Fame (2018)</premio>
+        </premios>
+        <canciones>
+            <cancion colaborador="Freddie Mercury">
+                <titulo>Bohemian Rhapsody</titulo>
+                <grupo>Queen</grupo>
+                <duracion>
+                    <minutos>5</minutos>
+                    <segundos>55</segundos>
+                </duracion>
+            </cancion>
+            <cancion>
+                <titulo>You're My Best Friend</titulo>
+                <grupo>Queen</grupo>
+                <duracion>
+                    <minutos>2</minutos>
+                    <segundos>52</segundos>
+                </duracion>
+            </cancion>
+            <cancion>
+                <titulo>Love of My Life</titulo>
+                <grupo>Queen</grupo>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>38</segundos>
+                </duracion>
+            </cancion>
+        </canciones>
+    </album>
+
+    <!-- Álbum: YHLQMDLG - Bad Bunny -->
+    <album>
+        <titulo>YHLQMDLG</titulo>
+        <autor>Bad Bunny</autor>
+        <discografica>Rimas Entertainment</discografica>
+        <genero>Reguetón, Trap latino</genero>
+        <fecha_publicacion>2020-02-29</fecha_publicacion>
+        <premios>
+            <premio>Billboard Latin Music Award (2021)</premio>
+            <premio>Latin Grammy (2020)</premio>
+        </premios>
+        <canciones>
+            <cancion colaborador="Daddy Yankee">
+                <titulo>La Santa</titulo>
+                <grupo>Bad Bunny</grupo>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>26</segundos>
+                </duracion>
+            </cancion>
+            <cancion colaborador="Jowell y Randy">
+                <titulo>Safaera</titulo>
+                <grupo>Bad Bunny</grupo>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>55</segundos>
+                </duracion>
+            </cancion>
+            <cancion colaborador="Anuel AA">
+                <titulo>Está Cabrón Ser Yo</titulo>
+                <grupo>Bad Bunny</grupo>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>44</segundos>
+                </duracion>
+            </cancion>
+        </canciones>
+    </album>
+</albumes>

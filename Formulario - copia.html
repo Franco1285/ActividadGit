@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formularios</title>
+    </head>
+
+    <body>
+
+        <h1>Formularios</h1>
+
+        <form>
+            <fieldset>
+                <legend>Primer campo</legend>
+                <label>Nombre:</label>
+                <br />
+                <textarea name="nombre" placeholder="Escriba aquí su nombre"></textarea>
+                <br />
+                <button>Botón</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Segundo campo</legend>
+
+                <label>Elige una opción</label>
+
+                <select name="opción">
+                    <option name="opción 1">Opción 1</option>
+                    <option name="opción 2">Opción 2</option>
+                    <option name="opción 3">Opción 3</option>
+                </select>
+
+                <br />
+            
+                <label>Texto corto:</label>
+                <input type="text" name="textoCorto" placeholder="Nombre" required />
+                <br />
+
+                <label>Telefono</label>
+                <input type="tel" name="telefono" placeholder="Teléfono" required />
+                <br />
+
+                <label>Correo electrónico</label>
+                <input type="email" name="Correo" placeholder="Correo" required />
+                <br />
+
+                <label>Contraseña</label>
+                <input type="password" name="Contraseña" placeholder="Introduce Contraseña" required />
+                <br />
+
+                <label>Color</label>
+                <input type="color" name="Color"/>
+                <br />
+
+                <label>Fecha</label>
+                <input type="date" name="Fecha"/>
+                <input type="time" name="Hora">
+                <input type="datetime-local" name="fecha-hora">
+                <br />
+
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Resetear formulario"/>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Tercera parte</legend>
+                <label>Selección de rango deslizante</label>
+                <input type="range" name="rango" min="0" max="100" step="10">
+                <br>
+
+                <label>Barra de progreso</label>
+                <progress min="0" max="100"></progress>
+                <progress min="0" max="100" value="75">
+                <br>
+
+                <label>Medidores:</label>
+                <meter min="0" max="10" value="3" low="5" high="7" optimum="9"></meter>
+                <br>
+
+                
+
+            </fieldset>
+        </form>
+    </body>
+</html>

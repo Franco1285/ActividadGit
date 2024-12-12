@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <datos_personales>
+        <nombre>Francisco Javier Franco Carmona</nombre>
+        <edad>18</edad>
+        <direccion>Calle Fernando de Magallanes, Condequinto, España</direccion>
+        <contacto>
+            <telefono>+34 658 65 96 00</telefono>
+            <correo>fjfranco@itpfp.com</correo>
+        </contacto>
+    </datos_personales>
+    
+    <datos_academicos>
+        <titulacion>
+            <nivel>Grado Superior (Informática DAM)</nivel>
+            <titulo>Informática</titulo>
+            <centro>Pablo de la Torre de Dos Hermanas</centro>
+            <especialidad>Creación de aplicaciones multiplataforma</especialidad>
+            <fecha_finalizacion>2025</fecha_finalizacion>
+        </titulacion>
+    </datos_academicos>
+    
+    <experiencia_profesional>
+        <trabajo>
+            <empresa>Orbys</empresa>
+            <ubicacion>Calle Torneo, España</ubicacion>
+            <puesto>Tecnico Informático</puesto>
+            <fecha_inicio>2024</fecha_inicio>
+            <fecha_fin>2024</fecha_fin>
+        </trabajo>
+    </experiencia_profesional>
+    
+    <aptitudes>
+        <idiomas>
+            <idioma>
+                <nombre>Inglés</nombre>
+                <nivel>B1</nivel>
+            </idioma>
+        </idiomas>
+        <intereses>
+            <interes>Desarrollo de software</interes>
+            <interes>Inteligencia artificial</interes>
+            <interes>Ciberseguridad</interes>
+        </intereses>
+        <cualidades>
+            <cualidad>Trabajo en equipo</cualidad>
+            <cualidad>Resolución de problemas</cualidad>
+            <cualidad>Creatividad</cualidad>
+        </cualidades>
+        <conocimientos>
+            <conocimiento>Python</conocimiento>
+            <conocimiento>JavaScript</conocimiento>
+            <conocimiento>SQL</conocimiento>
+            <conocimiento>Java</conocimiento>
+        </conocimientos>
+    </aptitudes>
+</cv>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+
+    <equipo Entrenador="Manuel Pellegrini">
+        <nombre>Betis</nombre>
+        <Ciudad>Sevilla</Ciudad>
+        <Jugadores>
+            <jugador Nombre="Bellerín">
+                <Posicion>Lateral Derecho</Posicion>
+                <Nacionalidad>Española</Nacionalidad>
+            </jugador>
+
+            <jugador Nombre="Mendy">
+                <Posicion>Defensa Central</Posicion>
+                <Nacionalidad>Francesa</Nacionalidad>
+            </jugador>
+        </Jugadores>
+    </equipo>
+
+    <equipo Entrenador="Xavi">
+        <nombre>Barcelona</nombre>
+        <Ciudad>Barcelona</Ciudad>
+        <Jugadores>
+            <jugador Nombre="Ter Stegen">
+                <Posicion>Portero</Posicion>
+                <Nacionalidad>Alemana</Nacionalidad>
+            </jugador>
+
+            <jugador Nombre="Pedri">
+                <Posicion>Centrocampista</Posicion>
+                <Nacionalidad>Española</Nacionalidad>
+            </jugador>
+        </Jugadores>
+    </equipo>
+
+</equipos>

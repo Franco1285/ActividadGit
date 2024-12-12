@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE cine>
+
+<catalogo>
+    <pelicula año="1994">
+        <titulo>Pulp Fiction</titulo>
+        <director>Quentin Tarantino</director>
+    </pelicula>
+
+    <pelicula año="1972">
+        <titulo>El Padrino</titulo>
+        <director>Francis Ford Coppola</director>
+    </pelicula>
+
+    <pelicula año="1999">
+        <titulo>Matrix</titulo>
+        <director>Lana Wachowski y Lilly Wachowski</director>
+    </pelicula>
+
+    <pelicula año="2016">
+        <titulo>La La Land</titulo>
+        <director>Damien Chazelle</director>
+    </pelicula>
+
+    <pelicula año="2021">
+        <titulo>El Señor de los anillos</titulo>
+        <subtitulo>La Comunidad del Anillo</subtitulo>
+        <director>Peter Jackson</director>
+    </pelicula>
+</catalogo>

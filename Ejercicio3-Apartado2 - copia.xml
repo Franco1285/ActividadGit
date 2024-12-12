@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contratos>
+    
+    <!-- Contratos de Trabajadores -->
+    <trabajadores>
+        <trabajador>
+            <nombre>María García López</nombre>
+            <dni>12345678A</dni>
+            <contacto>
+                <telefono>+34 650 123 456</telefono>
+                <correo>maria.garcia@empresa.com</correo>
+            </contacto>
+            <puesto>Desarrolladora de Software</puesto>
+            <duracion_contrato>Indefinido</duracion_contrato>
+            <horas_semanales>40</horas_semanales>
+            <horario>9:00-18:00</horario>
+            <salario>32000</salario>
+            <beneficios>
+                <seguro_medico>Sí</seguro_medico>
+                <bonificacion_proyectos>No</bonificacion_proyectos>
+            </beneficios>
+        </trabajador>
+        <trabajador>
+            <nombre>Carlos Ruiz Fernández</nombre>
+            <dni>87654321B</dni>
+            <contacto>
+                <telefono>+34 620 789 012</telefono>
+                <correo>carlos.ruiz@empresa.com</correo>
+            </contacto>
+            <puesto>Analista de Datos</puesto>
+            <duracion_contrato>Temporal</duracion_contrato>
+            <horas_semanales>20</horas_semanales>
+            <horario>9:00-13:00</horario>
+            <salario>18000</salario>
+            <beneficios>
+                <seguro_medico>No</seguro_medico>
+                <bonificacion_proyectos>Sí</bonificacion_proyectos>
+            </beneficios>
+        </trabajador>
+    </trabajadores>
+    
+    <!-- Contratos de Proveedores -->
+    <proveedores>
+        <proveedor>
+            <empresa>TechSupply S.A.</empresa>
+            <direccion>Calle Mayor, 45, 28080, Madrid</direccion>
+            <representante>Juan López</representante>
+            <contacto>
+                <telefono>+34 910 123 456</telefono>
+                <correo>juan.lopez@techsupply.com</correo>
+            </contacto>
+            <duracion_contrato>12 meses</duracion_contrato>
+            <precio>25000</precio>
+            <suministros>
+                <suministro>
+                    <producto>Servidores</producto>
+                    <cantidad>10</cantidad>
+                </suministro>
+                <suministro>
+                    <producto>Cables de red</producto>
+                    <cantidad>500</cantidad>
+                </suministro>
+            </suministros>
+            <metodo_pago>Financiación</metodo_pago>
+        </proveedor>
+        <proveedor>
+            <empresa>OfficeWorld S.L.</empresa>
+            <direccion>Avenida Central, 12, 28008, Madrid</direccion>
+            <representante>Laura Martín</representante>
+            <contacto>
+                <telefono>+34 915 789 456</telefono>
+                <correo>laura.martin@officeworld.com</correo>
+            </contacto>
+            <duracion_contrato>6 meses</duracion_contrato>
+            <precio>5000</precio>
+            <suministros>
+                <suministro>
+                    <producto>Material de oficina</producto>
+                    <cantidad>200</cantidad>
+                </suministro>
+                <suministro>
+                    <producto>Impresoras</producto>
+                    <cantidad>5</cantidad>
+                </suministro>
+            </suministros>
+            <metodo_pago>Al contado</metodo_pago>
+        </proveedor>
+    </proveedores>
+    
+    <!-- Contratos de Clientes -->
+    <clientes>
+        <cliente>
+            <particular>
+                <nombre>Lucía Gómez Torres</nombre>
+                <dni>98765432C</dni>
+                <contacto>
+                    <telefono>+34 630 654 321</telefono>
+                    <correo>lucia.gomez@gmail.com</correo>
+                </contacto>
+            </particular>
+            <duracion_contrato>3 meses</duracion_contrato>
+            <servicio>Desarrollo de aplicación móvil</servicio>
+            <precio>12000</precio>
+            <metodo_pago>A plazos</metodo_pago>
+        </cliente>
+        <cliente>
+            <empresa>
+                <nombre>FinanzasGlobal S.A.</nombre>
+                <direccion>Paseo de la Castellana, 100, 28046, Madrid</direccion>
+                <representante>Antonio Pérez</representante>
+                <contacto>
+                    <telefono>+34 917 654 789</telefono>
+                    <correo>antonio.perez@finanzasglobal.com</correo>
+                </contacto>
+            </empresa>
+            <duracion_contrato>1 año</duracion_contrato>
+            <servicio>Consultoría financiera</servicio>
+            <precio>50000</precio>
+            <metodo_pago>Al contado</metodo_pago>
+        </cliente>
+    </clientes>
+    
+</contratos>

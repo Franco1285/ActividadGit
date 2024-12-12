@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Elabora un documento XML bien formado que almacene eventos de tu calendario. Deberás añadir al 
+menos 5 eventos distintos de tu invención. Para cada evento, se debe añadir como atributo su prioridad 
+(crítico, urgente, no muy importante…). Además, deberá contener una descripción, lugar 
+(con URL de Google Maps como atributo), hora (dividida en horas y minutos), y de forma opcional 
+(puede estar vacío), un recordatorio con una o varias horas establecidas (deberás diferenciarla 
+de la hora del evento con un espacio de nombres).-->
+
+<Eventos>
+
+    <Evento prioridad="Crítico">
+        <Descripción>Reunión con el equipo de desarrollo</Descripción>
+        <Lugar url="https://maps.google.com/?q=ReunionEquipo">Oficina Central</Lugar>
+        <Hora>
+            <Horas>13</Horas>
+            <minutos>40</minutos>
+        </Hora>
+        <Recordatorio>
+            <Horas>13</Horas>
+            <minutos>15</minutos>
+        </Recordatorio>
+    </Evento>
+
+    <Evento prioridad="Urgente">
+        <Descripción>Entrega del proyecto final</Descripción>
+        <Lugar url="https://maps.google.com/?q=Sala+de+Conferencias">Sala de Conferencias</Lugar>
+        <Hora>
+            <Horas>19</Horas>
+            <minutos>20</minutos>
+        </Hora>
+        <Recordatorio>
+            <Horas>19</Horas>
+            <minutos>00</minutos>
+        </Recordatorio>
+    </Evento>
+
+    <Evento prioridad="No tan importante">
+        <Descripción>Revisión del material bibliográfico</Descripción>
+        <Lugar url="https://maps.google.com/?q=Biblioteca+Central">Biblioteca Central</Lugar>
+        <Hora>
+            <Horas>08</Horas>
+            <minutos>10</minutos>
+        </Hora>
+        <Recordatorio>
+            <Horas>07</Horas>
+            <minutos>50</minutos>
+        </Recordatorio>
+    </Evento>
+
+    <Evento prioridad="obligatório">
+        <Descripción>Presentación de resultados trimestrales</Descripción>
+        <Lugar url="https://maps.google.com/?q=Auditorio+Principal">Auditorio Principal</Lugar>
+        <Hora>
+            <Horas>19</Horas>
+            <minutos>30</minutos>
+        </Hora>
+        <Recordatorio>
+            <Horas>19</Horas>
+            <minutos>00</minutos>
+        </Recordatorio>
+    </Evento>
+
+    <Evento prioridad="No importa si voy">
+        <Descripción>Almuerzo con compañeros</Descripción>
+        <Lugar url="https://maps.google.com/?q=Cafetería+Local">Cafetería Local</Lugar>
+        <Hora>
+            <Horas>14</Horas>
+            <minutos>00</minutos>
+        </Hora>
+        <Recordatorio>
+            <Horas>13</Horas>
+            <minutos>50</minutos>
+        </Recordatorio>
+    </Evento>
+
+
+</Eventos>
