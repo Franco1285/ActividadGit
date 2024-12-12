@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Matricula online</h1>
+
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label>Nombre:</label>
+            <input type="text">
+            <br>
+
+            <label>Apellidos:</label>
+            <input type="text">
+            <br>
+
+            <label>Correo electrónico:</label>
+            <input type="email">
+            <br>
+
+            <label>Telefono:</label>
+            <input type="tel">
+            <br>
+
+            <label>Fecha de nacimiento</label>
+            <input type="date">
+            <br>
+
+            <label>Talla:</label>
+            <label>S</label> <input type="radio" name ="talla">
+            <label>M</label> <input type="radio" name ="talla">
+            <label>L</label> <input type="radio" name ="talla">
+            <label>XL</label> <input type="radio" name ="talla">
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos academicos</legend>
+
+            <label>Elige curso:</label>
+
+            <select>
+                <optgroup label="Grado MEdio">
+                    <option>1 SMR</option>
+                    <option disabled>2 SMR</option>
+                </optgroup>
+                <optgroup label="Grado Superior">
+                    <option>1 DAM</option>
+                    <option>2 DAM</option>
+                    <option>1 DAW</option>
+                    <option>2 DAM</option>
+                </optgroup>
+            </select>
+            <br>
+
+            <label>Titulaciones: </label>
+            <input type="text">
+            <input type="file" accept=".pdf, .png">
+            <br>
+
+            <label>Información adicional</label>
+            <br>
+            <textarea placeholder="Información adicional"></textarea>
+        </fieldset>
+    </form>
+
+
+    <style>
+        body{
+            background-color: rgb(187, 183, 183);
+        }
+    </style>
+</body>
+</html>

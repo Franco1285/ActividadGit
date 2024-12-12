@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Hamburguesería Sevilla</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contacto</h1>
+        </div>
+    </header>
+    <div id="main" class="container">
+        <h2>Envíanos un mensaje</h2>
+        <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <h2>Encuéntranos</h2>
+        <div id="map">
+            <!-- Incrusta aquí el mapa de Google -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.919014680084!2d-5.996295684692385!3d37.38863097983171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126d31f1b1e1b9%3A0x4e8b8b8b8b8b8b8b!2sSevilla!5e0!3m2!1ses!2ses!4v1633024800000!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</body>
+</html>

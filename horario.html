@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Clase</title>
+</head>
+<body>
+    <h1>Horario 1º DAM</h1>
+
+    <table border="1">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+
+        <tr>
+            <th>8:30</th>
+            <th class="Digit">Digit</th>
+            <th class="SI">SI</th>
+            <th class="IP">IP</th>
+            <th class="SI">SI</th>
+            <th class="LM">LM</th>
+        </tr>
+
+        <tr>
+            <th>9:30</th>
+            <th class="Prog" rowspan="2">Prog</th>
+            <th class="BD" rowspan="2">BD</th>
+            <th class="Prog" rowspan="2">Prog</th>
+            <th class="BD">BD</th>
+            <th class="IP">IP</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th class="LM">LM</th>
+            <th class="SI">SI</th>
+        </tr>
+
+        <tr>
+            <th>11:30</th>
+            <th colspan="6" style="text-align: center; background-color: rgb(255, 255, 255);">Recreo</th>
+        </tr>
+
+        <tr>
+            <th>12:00</th>
+            <th class="BD">BD</th>
+            <th class="Prog">Prog</th>
+            <th class="ED">ED</th>
+            <th class="Prog" rowspan="2">Prog</th>
+            <th class="BD">BD</th>
+        </tr>
+
+        <tr>
+            <th>13:00</th>
+            <th class="Sost">Sost</th>
+            <th class="BD">BD</th>
+            <th class="IP">IP</th>
+            <th class="Prog">Prog</th>
+        </tr>
+
+        <tr>
+            <th>14:00</th>
+            <th class="SI">SI</th>
+            <th class="LM">LM</th>
+            <th class="SI">ED</th>
+            <th class="ED">ED</th>
+            <th class="ED">ED</th>
+        </tr>
+
+
+    </table>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 2.5em;               /* Tamaño de la fuente más grande */
+            color: #4A90E2;                 /* Color azul atractivo */
+        }
+
+
+        table{
+            margin: 0 auto;
+        }
+
+        .Digit{
+            background-color: rgb(41, 201, 1);
+        }
+
+        .SI{
+            background-color: rgb(86, 48, 255);
+        }
+
+        .Prog{
+            background-color: blueviolet;
+        }
+
+        .BD{
+            background-color: rgb(90, 199, 90);
+        }
+
+        .IP{
+            background-color: rgb(184, 184, 184);
+        }
+
+        .LM{
+            background-color: rgb(255, 182, 122);
+        }
+
+        .ED{
+            background-color: brown;
+        }
+
+    </style>
+
+</body>
+</html>
